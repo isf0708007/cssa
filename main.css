@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+header{
+    background: #999;
+    color: white;
+    padding: 5px 15px 0px 15px;
+}
+
+header h1{
+    margin:0;
+    display: inline;
+}
+
+#navbar  ul{
+    margin: 0;
+    padding: 0 0 0 15px;
+    display: inline;
+
+}
+
+#navbar  ul li {
+    list-style-type: none;
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+#navbar  ul li ul {
+    list-style-type: none;
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+#navbar  ul li a{
+    color: white;
+}
+
+/*.row {*/
+    /*clear: both;*/
+/*}*/
+
+
+/*.col{*/
+    /*background: #333;*/
+    /*color:white;*/
+    /*padding: 10px .5%;*/
+    /*border-radius: 5px;*/
+    /*float: left;*/
+    /*margin: .5%;*/
+    /*width: 31%;*/
+/*}*/
+
+footer{
+    clear: both;
+}
