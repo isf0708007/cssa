@@ -2,58 +2,109 @@ body {
     margin: 0;
 }
 
-header{
-    background: #999;
-    color: white;
-    padding: 5px 15px 0px 15px;
+/*header{*/
+    /*background: #999;*/
+    /*color: white;*/
+    /*padding: 5px 15px 0px 15px;*/
+/*}*/
+
+/*header h1{*/
+    /*margin:0;*/
+    /*display: inline;*/
+/*}*/
+
+li {
+    /*background: black;*/
 }
 
-header h1{
-    margin:0;
-    display: inline;
+nav {
+    width: 100%;
+    background-color: black;
 }
 
-#navbar  ul{
+nav ul {
+    list-style-type: none;
     margin: 0;
-    padding: 0 0 0 15px;
-    display: inline;
+    padding: 0;
+    overflow: hidden;
+    backgroundcolor: black;
+    /*display: inline;*/
 
 }
 
-#navbar  ul li {
-    list-style-type: none;
-    display: inline-block;
+
+nav li { /*boxes and space behind page names*/
+    /*list-style-type: none;*/
+    /*display: inline;*/
     background: black;
-    color: white;
-    padding: 5px 15px 5px 15px;
+    /*padding: 0 15 0 15;*/
+    /*margin: 0 0 0 0;*/
+    float: left;
 }
 
-#navbar  ul li ul {
-    list-style-type: none;
-    display: inline-block;
-    background: black;
+nav li a, .drop_button {
+    display: block;
     color: white;
-    padding: 5px 15px 5px 15px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#navbar  ul li a{
-    color: white;
+nav li a:hover, .dropdown:hover {
+    background-color: maroon;
 }
 
-/*.row {*/
-    /*clear: both;*/
-/*}*/
+nav li.dropdown {
+    display inline-block;
+}
+
+nav .drop_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+nav .drop_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+nav .drop_content a:hover {background-color: beige}
+
+nav .dropdown:hover .drop_content {
+    display: block;
+}
 
 
-/*.col{*/
-    /*background: #333;*/
-    /*color:white;*/
-    /*padding: 10px .5%;*/
-    /*border-radius: 5px;*/
+nav .active{
+    background-color: beige;
+}
+
+nav .drop_button.active {
+    background-color: maroon;
+}
+
+/*nav ul li ul li  {*/
+    /*!*list-style-type: none;*!*/
+    /*display: inline;*/
+    /*background: black;*/
+    /*!*padding: 0 0 5 0;*!*/
+    /*!*margin: 0;*!*/
+
     /*float: left;*/
-    /*margin: .5%;*/
-    /*width: 31%;*/
+
 /*}*/
+
+/*nav ul li ul li a{*/
+    /*color: white;*/
+    /*display: inline-block;*/
+/*}*/
+
 
 footer{
     clear: both;
