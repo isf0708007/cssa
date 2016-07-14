@@ -1,6 +1,13 @@
-body {
-    margin: 0;
+head{
+    font-family: "Arial"
 }
+nav {
+    margin: .5em;
+    font-family: "Arial";
+}
+
+
+
 
 /*header{*/
     /*background: #999;*/
@@ -18,6 +25,7 @@ li {
 }
 
 nav {
+    margin: 0px;
     width: 100%;
     background-color: black;
 }
@@ -105,6 +113,10 @@ nav .drop_button.active {
     /*display: inline-block;*/
 /*}*/
 
+#Bylaw {
+    font-family: "Georgia";
+    white-space: nowrap;
+}
 
 footer{
     clear: both;
