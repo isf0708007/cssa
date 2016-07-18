@@ -1,11 +1,13 @@
 head{
     font-family: "Arial"
 }
+body{
+    font-family: "Arial";
+}
 nav {
     margin: .5em;
     font-family: "Arial";
 }
-
 
 
 
@@ -113,9 +115,21 @@ nav .drop_button.active {
     /*display: inline-block;*/
 /*}*/
 
-#Bylaw {
+
+#primaryContent {
+    font-family: "Arial";
+    width: 90%;
+    min-width:500px;
+    left:40px;
+    line-height:200%;
+
+}
+#bylaw {
     font-family: "Georgia";
-    white-space: nowrap;
+    width: 90%;
+    min-width: 400px;
+    left: 40px;
+
 }
 
 footer{
