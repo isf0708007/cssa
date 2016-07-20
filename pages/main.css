@@ -3,6 +3,7 @@ head{
 }
 body{
     font-family: "Arial";
+    background-color: #f9f9f9;
 }
 nav {
     margin: .5em;
@@ -29,7 +30,10 @@ li {
 nav {
     margin: 0px;
     width: 100%;
+    /*height: 200px;*/
     background-color: black;
+    display: block;
+    position: relative;
 }
 
 nav ul {
@@ -37,7 +41,6 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    backgroundcolor: black;
     /*display: inline;*/
 
 }
@@ -99,6 +102,16 @@ nav .drop_button.active {
     background-color: maroon;
 }
 
+#rowBanner {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: gold;
+    display: block;
+    position: relative;
+    z-index: -1;
+}
+
 /*nav ul li ul li  {*/
     /*!*list-style-type: none;*!*/
     /*display: inline;*/
@@ -115,13 +128,49 @@ nav .drop_button.active {
     /*display: inline-block;*/
 /*}*/
 
+#sideBarContainer {
+    float: left;
+    display: block;
+    /*width: 20%;*/
+    position: relative;
+    height: 100%;
+    color: silver;
+}
+#sideBarContainer ul {
+    list-style-type: none;
+    display: block;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    backgroundcolor: black;
+}
+
+
+#sideBarContainer li{
+    display: block;
+    background: silver;
+    border-bottom: 1px solid grey;
+}
+#sideBarContainer li a {
+    display: block;
+    padding: 14px 16px;
+}
+
+#sideBarContainer .sideBar.active{
+    background-color: beige;
+    color: darkblue;
+    bold;
+}
 
 #primaryContent {
     font-family: "Arial";
+    margin-left: 16%;
     width: 90%;
     min-width:500px;
-    left:40px;
     line-height:200%;
+    display: block;
+
 
 }
 #bylaw {
