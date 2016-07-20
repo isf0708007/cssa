@@ -166,8 +166,8 @@ nav .drop_button.active {
 #primaryContent {
     font-family: "Arial";
     margin-left: 16%;
-    width: 90%;
-    min-width:500px;
+    width: 800px;
+    min-width: 50%;
     line-height:200%;
     display: block;
 
