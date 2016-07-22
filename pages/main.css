@@ -112,11 +112,13 @@ nav .drop_button.active {
 /*}*/
 
 #sideBarContainer {
-    color: silver;
+    /*color: silver;*/
     display: block;
     float: left;
     height: 100%;
+    width: 220px;
     position: relative;
+
 }
 #sideBarContainer ul {
     backgroundcolor: black;
@@ -125,7 +127,6 @@ nav .drop_button.active {
     margin: 0;
     overflow: hidden;
     padding: 0;
-    width: 200px;
 }
 
 
