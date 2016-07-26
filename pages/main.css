@@ -89,7 +89,7 @@ nav .drop_button.active {
     background-color: black;
     color: gold;
     display: block;
-    height: 150px;
+    height: 200px;
     position: relative;
     width: 100%;
     z-index: -1;
@@ -150,10 +150,12 @@ nav .drop_button.active {
 
 #primaryContent {
     display: block;
-    font-family: "Arial";
-    line-height:200%;
-    margin-left: 18%;
-    min-width: 50%;
+    font-family: "Futura";
+    line-height:500%;
+    color: white;
+    /*margin-left: 18%;*/
+    text-align: center;
+    min-width: 100%;
     width: 800px;
 
 
