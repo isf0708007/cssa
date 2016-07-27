@@ -25,6 +25,7 @@ nav {
     top: 50px;
     width: 100%;
     height: auto;
+
 }
 
 nav ul {
@@ -52,6 +53,7 @@ nav li a, .drop_button {
 
 nav li a:hover, .dropdown:hover {
     background-color: maroon;
+
 }
 
 nav li.dropdown {
@@ -96,14 +98,15 @@ nav .active{
 }
 
 nav .drop_button.active {
-    background-color: maroon;
+    background-color: transparent;
+    font-weight: bolder;
 }
 
 
 
 #rowBanner {
     background-color: black;
-    color: gold;
+    color: black;
     display: block;
     height: 200px;
     position: relative;
@@ -111,10 +114,13 @@ nav .drop_button.active {
     z-index: -1;
 }
 
-.homeBannerImg img{
+
+.majorBannerImg img{
     height: auto;
     width: 100%;
     min-height: 350px;
+    clip: rect(0px,60px,200px,0px);
+    display: block;
 }
 
 
@@ -180,7 +186,6 @@ nav .drop_button.active {
     max-width: 800px;
     line-height:200%;
     /*min-width: 50%;*/
-
 
 }
 
