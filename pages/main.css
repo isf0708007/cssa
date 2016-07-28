@@ -1,9 +1,10 @@
 head{
-    font-family: "Arial"
+    font-family: sans-serif
 }
 body{
     background-color: #f9f9f9;
-    font-family: "Arial";
+    font-family: sans-serif;
+    src: url('DevResources/Futura LT Light.ttf');
 }
 
 a{
@@ -18,11 +19,12 @@ img{
 nav {
     background-color: none;
     display: block;
-    font-family: "Arial";
+    font-family: "Avenir";
     margin: .5em;
     margin: 0px; /*keep both margin statements and .5em before 0px.*/
     position: absolute;
-    top: 50px;
+    top: 20px;
+    left: 20px;
     width: 100%;
     height: auto;
 
@@ -52,7 +54,8 @@ nav li a, .drop_button {
 }
 
 nav li a:hover, .dropdown:hover {
-    background-color: maroon;
+    background-color: black;
+    /*opacity: .4;*/
 
 }
 
@@ -61,7 +64,10 @@ nav li.dropdown {
 }
 
 nav li.navBarLogo {
-    float: right;
+    /*float: right;*/
+    position: fixed;
+    right: 10px;
+    top: 20px;
     background-color: none;
 }
 
@@ -71,7 +77,8 @@ nav li.navBarLogo:hover{
 
 
 nav .drop_content {
-    background-color: #f9f9f9;
+    background-color: black;
+    /*opacity: .6;*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: none;
     min-width: 160px;
@@ -79,14 +86,17 @@ nav .drop_content {
 }
 
 nav .drop_content a {
-    color: black;
+    color: white;
     display: block;
     padding: 12px 16px;
     text-align: left;
     text-decoration: none;
 }
 
-nav .drop_content a:hover {background-color: beige}
+nav .drop_content a:hover {
+    background-color: black;
+    opacity: .4;
+}
 
 nav .dropdown:hover .drop_content {
     display: block;
@@ -116,7 +126,7 @@ nav .drop_button.active {
 
 
 .majorBannerImg img{
-    height: auto;
+    height: 620px;
     width: 100%;
     min-height: 350px;
     clip: rect(0px,60px,200px,0px);
@@ -191,11 +201,12 @@ nav .drop_button.active {
 
 #primaryContentHomepage {
     display: block;
-    font-family: "Futura";
-    line-height:300%;
+    font-family: "Futura LT Light";
+    font-size: 20px;
+    line-height:250%;
     color: white;
-    position: fixed;
-    top: 25%;
+    position: relative;
+    top: 18px;
     /*margin-left: 18%;*/
     text-align: center;
     min-width: 100%;
