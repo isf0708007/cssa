@@ -7,6 +7,8 @@ body{
     src: url('DevResources/Futura LT Light.ttf');
 }
 
+
+
 a{
     color: #4386C9;
 }
@@ -60,7 +62,7 @@ nav li a:hover, .dropdown:hover {
 }
 
 nav li.dropdown {
-    display inline-block;
+    display: inline-block;
 }
 
 nav li.navBarLogo {
@@ -68,11 +70,11 @@ nav li.navBarLogo {
     position: fixed;
     right: 10px;
     top: 20px;
-    background-color: none;
+    background-color: transparent;
 }
 
 nav li.navBarLogo:hover{
-    background-color: none;
+    background-color: transparent;
 }
 
 
@@ -126,29 +128,14 @@ nav .drop_button.active {
 
 
 .majorBannerImg img{
-    height: 620px;
+    /*height: 620px;*/
+    height: auto;
+    max-height: 620px;
     width: 100%;
     min-height: 350px;
     clip: rect(0px,60px,200px,0px);
     display: block;
 }
-
-
-/*nav ul li ul li  {*/
-    /*!*list-style-type: none;*!*/
-    /*display: inline;*/
-    /*background: black;*/
-    /*!*padding: 0 0 5 0;*!*/
-    /*!*margin: 0;*!*/
-
-    /*float: left;*/
-
-/*}*/
-
-/*nav ul li ul li a{*/
-    /*color: white;*/
-    /*display: inline-block;*/
-/*}*/
 
 #sideBarContainer {
     /*color: silver;*/
@@ -214,7 +201,6 @@ nav .drop_button.active {
 
 }
 
-
 #bylaw {
     font-family: "Georgia";
     left: 40px;
@@ -233,6 +219,12 @@ nav .drop_button.active {
     width: 10em;
     height: 75px;
     margin: 10px;
+}
+
+.pageImg img{
+    height: auto;
+    width: auto;
+    display: none;
 }
 
 footer{
