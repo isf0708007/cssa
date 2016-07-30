@@ -105,9 +105,6 @@ nav .dropdown:hover .drop_content {
 }
 
 
-nav .active{
-    background-color: beige;
-}
 
 nav .drop_button.active {
     background-color: transparent;
