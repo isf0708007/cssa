@@ -67,9 +67,9 @@ nav li.dropdown {
 
 nav li.navBarLogo {
     /*float: right;*/
-    position: fixed;
-    right: 10px;
-    top: 20px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
     background-color: transparent;
 }
 
@@ -114,7 +114,12 @@ nav .drop_button.active {
     font-weight: bolder;
 }
 
+#homeRowWrapper {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0px;
 
+}
 
 #rowBanner {
     background-color: black;
@@ -147,7 +152,7 @@ nav .drop_button.active {
 
 }
 #sideBarContainer ul {
-    backgroundcolor: black;
+    background: black;
     display: block;
     list-style-type: none;
     margin: 0;
@@ -171,7 +176,7 @@ nav .drop_button.active {
     background-color: beige;
     color: maroon;
     font-weight: bold;
-    style: bold;
+    font-style: bold;
 }
 
 
@@ -204,9 +209,9 @@ nav .drop_button.active {
 #latestNewsBox{
     height:600px;
     width:100%;
-    background-color: black;
+    /*background-color: black;
     margin:auto;
-    border:8px solid black;
+    border:8px solid black;*/
     position: relative;
 
 }
