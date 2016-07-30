@@ -201,6 +201,26 @@ nav .drop_button.active {
 
 }
 
+#latestNewsBox{
+    height:600px;
+    width:100%;
+    background-color: black;
+    margin:auto;
+    border:8px solid black;
+    position: relative;
+
+}
+
+.footer{
+    height:200px;
+    width:100%;
+    background-color: lightgray;
+    margin:auto;
+    border:8px solid lightgray;
+    position: relative;
+
+}
+
 #bylaw {
     font-family: "Georgia";
     left: 40px;
