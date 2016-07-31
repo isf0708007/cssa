@@ -5,6 +5,11 @@ body{
     background-color: #f9f9f9;
     font-family: sans-serif;
     src: url('DevResources/Futura LT Light.ttf');
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
 }
 
 
@@ -190,6 +195,7 @@ nav .drop_button.active {
 
 #primaryContentHomepage {
     display: block;
+    min-height: 415px;
     font-family: "Futura LT Light";
     font-size: 20px;
     line-height:250%;
@@ -203,25 +209,6 @@ nav .drop_button.active {
 
 }
 
-#latestNewsBox{
-    height:600px;
-    width:100%;
-    /*background-color: black;
-    margin:auto;
-    border:8px solid black;*/
-    position: relative;
-
-}
-
-.footer{
-    height:200px;
-    width:100%;
-    background-color: lightgray;
-    margin:auto;
-    border:8px solid lightgray;
-    position: relative;
-
-}
 
 #bylaw {
     font-family: "Georgia";
@@ -247,6 +234,43 @@ nav .drop_button.active {
     height: auto;
     width: auto;
     display: none;
+}
+
+
+.footer{
+    height:180px;
+    width:auto;
+    background-color: lightgray;
+    margin:auto;
+    border-left: 50px solid lightgray;
+    border-right: 50px solid lightgray;
+    border-top: 10px solid lightgray;
+    position: relative;
+}
+
+.footerContent {
+    color: black;
+    font-family: "Garamond";
+    line-height:180%;
+    /*border:4px solid lightgray;
+    height:80px;*/
+    float:left;
+    width: 33%;
+    font-size: 18px;
+
+}
+
+.footerTitle{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.wechatQRcode {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    background-color: transparent;
 }
 
 footer{
