@@ -131,10 +131,78 @@ nav .drop_button.active {
     font-weight: bolder;
 }
 
+/*#bylaw {
+    font-family: "Georgia";
+    left: 40px;
+    min-width: 400px;
+    width: 90%;
+
+}*/
+
+.footer{
+    height:180px;
+    width:auto;
+    background-color: lightgray;
+    margin:auto;
+    border-left: 50px solid lightgray;
+    border-right: 50px solid lightgray;
+    border-top: 10px solid lightgray;
+    position: relative;
+}
+
+.footerContent {
+    color: black;
+    font-family: "Garamond";
+    line-height:180%;
+    /*border:4px solid lightgray;
+    height:80px;*/
+    float:left;
+    width: 33%;
+    font-size: 18px;
+
+}
+
+.footerTitle{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
 #homeRowWrapper {
     max-width: 100%;
     margin: 0px auto;
     padding: 0px;
+
+}
+
+.majorBannerImg img{
+    /*height: 620px;*/
+    height: auto;
+    max-height: 620px;
+    width: 100%;
+    min-height: 350px;
+    clip: rect(0px,60px,200px,0px);
+    display: block;
+}
+
+.pageImg img{
+    height: auto;
+    width: auto;
+    display: none;
+}
+
+#primaryContent {
+    display: inline-block;
+    font-family: "Verdana";
+    /*float: left;
+    top: -120px;
+    left: 250px;*/
+    position: relative;
+    margin-left: 80px;
+    margin-top: 20px;
+    max-width: 800px;
+    line-height:200%;
+    /*min-width: 50%;*/
 
 }
 
@@ -148,16 +216,6 @@ nav .drop_button.active {
     z-index: -1;
 }
 
-
-.majorBannerImg img{
-    /*height: 620px;*/
-    height: auto;
-    max-height: 620px;
-    width: 100%;
-    min-height: 350px;
-    clip: rect(0px,60px,200px,0px);
-    display: block;
-}
 
 #sideBarContainer {
     /*color: silver;*/
@@ -201,32 +259,6 @@ nav .drop_button.active {
     text-decoration: none;
 }
 
-
-#primaryContent {
-    display: inline-block;
-    font-family: "Verdana";
-    /*float: left;
-    top: -120px;
-    left: 250px;*/
-    position: relative;
-    margin-left: 80px;
-    margin-top: 20px;
-    max-width: 800px;
-    line-height:200%;
-    /*min-width: 50%;*/
-
-}
-
-
-
-/*#bylaw {
-    font-family: "Georgia";
-    left: 40px;
-    min-width: 400px;
-    width: 90%;
-
-}*/
-
 #teamInformation h3{
     border-bottom: 2px solid black;
     max-width: 300px;
@@ -239,48 +271,13 @@ nav .drop_button.active {
     margin: 10px;
 }
 
-.pageImg img{
-    height: auto;
-    width: auto;
-    display: none;
-}
-
-
-.footer{
-    height:180px;
-    width:auto;
-    background-color: lightgray;
-    margin:auto;
-    border-left: 50px solid lightgray;
-    border-right: 50px solid lightgray;
-    border-top: 10px solid lightgray;
-    position: relative;
-}
-
-.footerContent {
-    color: black;
-    font-family: "Garamond";
-    line-height:180%;
-    /*border:4px solid lightgray;
-    height:80px;*/
-    float:left;
-    width: 33%;
-    font-size: 18px;
-
-}
-
-.footerTitle{
-    font-size: 20px;
-    font-weight: bold;
-
-}
-
 .wechatQRcode {
     position: absolute;
     left: 50px;
     top: 20px;
     background-color: transparent;
 }
+
 
 footer{
     clear: both;

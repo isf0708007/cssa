@@ -3,6 +3,37 @@ body{
     src: url('DevResources/Futura LT Light.ttf');
 }
 
+#latestNewsContainer {
+    display: block;
+    min-height: 700px;
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#latestNewsTitle {
+    display: block;
+    font-family: "Avenir";
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+    position: static;
+    top: 18px;
+    text-align: center;
+    min-width: 100%;
+}
+
+.newsBox {
+    color: none;
+    font-family: "Avenir";
+    border: 3px solid grey;
+    margin: 20px;
+    padding: 5px;
+    height: 200px;
+    width: 300px;
+    float: left;   
+}
+
 #primaryContentHomepage {
     display: block;
     min-height: 430px;
@@ -24,34 +55,4 @@ body{
     font-size: 28px;
 }
 
-#latestNewsContainer {
-	display: block;
-    min-height: 700px;
-    width: 1080px;
-    margin: 0 auto;
-    position: relative;
-}
 
-#latestNewsTitle {
-	display: block;
-	font-family: "Avenir";
-    font-size: 35px;
-    font-weight: bold;
-    color: black;
-    position: static;
-    top: 18px;
-    text-align: center;
-    min-width: 100%;
-}
-
-.newsBox {
-    color: none;
-    font-family: "Avenir";
-    border: 3px solid grey;
-    margin: 20px;
-    padding: 5px;
-    height: 200px;
-    width: 300px;
-    float: left;
-    
-}
