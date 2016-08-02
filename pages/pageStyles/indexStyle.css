@@ -1,6 +1,27 @@
 body{
-    font-family: sans-serif;
+    font-family: "Avenir","Futura LT Light";
     src: url('DevResources/Futura LT Light.ttf');
+}
+
+#primaryContentHomepage {
+    display: block;
+    min-height: 430px;
+    font-family: "Avenir";
+    font-size: 40px;
+    line-height:120%;
+    color: white;
+    position: relative;
+    top: 50px;
+    /*margin-left: 18%;*/
+    text-align: center;
+    min-width: 100%;
+    /*width: 800px;*/
+
+}
+
+#smaller {
+    font-family: "Futura LT Light";
+    font-size: 28px;
 }
 
 #latestNewsContainer {

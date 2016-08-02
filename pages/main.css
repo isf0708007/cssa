@@ -3,7 +3,7 @@ head{
 }
 body{
     background-color: #f9f9f9;
-    font-family: sans-serif;
+    font-family: "Avenir","Futura LT Light","Georgia","Garamond","Verdana";
     src: url('DevResources/Futura LT Light.ttf');
 
     margin-top: 0px;
@@ -12,7 +12,22 @@ body{
     margin-left: 0px
 }
 
+h1 {
+    color: black;
+    font-family: "Verdana";
 
+}
+
+h2 {
+    color: black;
+    font-family: "Verdana";
+
+}
+
+h3 {
+    color: black;
+    font-family: "Verdana";
+}
 
 a{
     color: #4386C9;
@@ -146,15 +161,17 @@ nav .drop_button.active {
 
 #sideBarContainer {
     /*color: silver;*/
-    display: block;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+    top: 30px;
+    left: 30px;
     height: 100%;
-    width: 220px;
+    width: 210px;
     position: relative;
 
 }
 #sideBarContainer ul {
-    background: black;
+    background: none;
     display: block;
     list-style-type: none;
     margin: 0;
@@ -164,59 +181,51 @@ nav .drop_button.active {
 
 
 #sideBarContainer li{
-    background: silver;
-    border-bottom: 1px solid grey;
+    background: none;
+    border-bottom: 1px solid lightgrey;
     display: block;
 }
+
 #sideBarContainer li a {
-    color: #4386C9;
+    color: grey;
     display: block;
     padding: 14px 16px;
+    text-decoration: none;
 }
 
 #sideBarContainer .sideBar.active{
-    background-color: beige;
-    color: maroon;
+    background-color: none;
+    color: black;
     font-weight: bold;
     font-style: bold;
+    text-decoration: none;
 }
 
 
 #primaryContent {
-    display: block;
-    font-family: "Arial";
-    float: left;
-    margin-left: 4%;
+    display: inline-block;
+    font-family: "Verdana";
+    /*float: left;
+    top: -120px;
+    left: 250px;*/
+    position: relative;
+    margin-left: 80px;
+    margin-top: 20px;
     max-width: 800px;
     line-height:200%;
     /*min-width: 50%;*/
 
 }
 
-#primaryContentHomepage {
-    display: block;
-    min-height: 415px;
-    font-family: "Futura LT Light";
-    font-size: 20px;
-    line-height:250%;
-    color: white;
-    position: relative;
-    top: 18px;
-    /*margin-left: 18%;*/
-    text-align: center;
-    min-width: 100%;
-    /*width: 800px;*/
-
-}
 
 
-#bylaw {
+/*#bylaw {
     font-family: "Georgia";
     left: 40px;
     min-width: 400px;
     width: 90%;
 
-}
+}*/
 
 #teamInformation h3{
     border-bottom: 2px solid black;
