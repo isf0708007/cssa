@@ -180,7 +180,7 @@ nav .drop_button.active {
     height: auto;
     max-height: 620px;
     width: 100%;
-    min-height: 350px;
+    min-height: 250px;
     clip: rect(0px,60px,200px,0px);
     display: block;
 }
@@ -199,7 +199,7 @@ nav .drop_button.active {
     left: 250px;*/
     position: relative;
     margin-left: 80px;
-    margin-top: 20px;
+    margin-top: 200px;
     max-width: 800px;
     line-height:200%;
     /*min-width: 50%;*/
@@ -210,10 +210,21 @@ nav .drop_button.active {
     background-color: black;
     color: black;
     display: block;
-    height: 200px;
+    height: 90px;
     position: relative;
     width: 100%;
     z-index: -1;
+}
+
+.rowBannerImg img {
+    height: auto;
+    max-height: 200px;
+    width: 100%;
+    min-height: 100px;
+    /*clip: rect(0px,60px,200px,0px);*/
+    display: block;
+    position: relative;
+    top: 90px;
 }
 
 
@@ -221,7 +232,7 @@ nav .drop_button.active {
     /*color: silver;*/
     display: inline-block;
     vertical-align: top;
-    top: 30px;
+    top: 210px;
     left: 30px;
     height: 100%;
     width: 210px;
