@@ -13,6 +13,6 @@ Deploy on Bluemix:
   when you get to step 5, take a second to make sure your code is committed to GitHub (and in sync). 
     commits to develop branch, instead of master branch, have been successful in the future. 
       open an issue if you find it unsuccessful.
-  execute step 5 by entering: cf push urCssaWebDev
+  execute step 5 by entering: cf push urCssa
   
   wait for it to completely finish. then refresh. site should work...
