@@ -1,6 +1,9 @@
 body{
-    font-family: "Avenir","Futura LT Light";
+    font-family: "Avenir","Futura LT Light","Georgia","Garamond","Verdana";
+}
+@font-face {
     src: url('DevResources/Futura LT Light.ttf');
+
 }
 
 #latestNewsContainer {
@@ -41,7 +44,7 @@ body{
     height: auto;
     width: 100%;
     height: 210px;
-    /*clip: rect(0px,60px,200px,0px);*/
+    /*clip: rect(0px,50px,200px,0px);*/
     display: block;
     position: relative;
 }
