@@ -11,7 +11,7 @@ Deploy on Bluemix:
     for step 3: use: bluemix api https://api.ng.bluemix.net
   
   when you get to step 5, take a second to make sure your code is committed to GitHub (and in sync). 
-    commits to develop branch, instead of master branch, have been successful in the future. 
+    commits to develop branch, instead of master branch, have been successful...
       open an issue if you find it unsuccessful.
   execute step 5 by entering: cf push urCssa
   
